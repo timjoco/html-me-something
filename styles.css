@@ -1,26 +1,74 @@
-.sidenav {
+
+
+body {
+    
+    color: rgba(255,255,255,0.8);
+    background: #2a364f;
+}
+
+.header {
+    font-family: "trebuchet MS"; 
+    text-align: center;
+    font-size: 35pt;
+    color: rgba(255,255,255,0.8);
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+#buttons {
     height: 100%;
     width: 150px;
-    position: fixed; 
+    list-style: none;
+    position: fixed;
     background-color: black; 
-    padding-right: 30px;
-
+    margin-right: 30px;
+    width: 150px;
+    line-height: 60px;
+    top: 0;
 
 }
 
-.sidenav a {
+#buttons a {
     padding: 6px 8px 10px 16px;
     text-decoration: none;
-    font-size: 18px;
-    color: #818181;
+    font-size: 13px;
+    color:  rgba(255,255,255,0.8);
     display: block;
   }
 
-.sidenav a:hover {
-    color: #f1f1f1;
+#buttons a:hover {
+    color: #F8B627;
+}
+
+#toptop a {
+    color:  rgba(255,255,255,0.8);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#toptop a:hover{
+    color: #F8B627;
 }
 
 .main {
-    margin-left: 190px;
-    padding: 0px 10px;
+    height: 160px;
+    margin-left: 200px;
+    padding-top: 150px;
+}
+
+h2 {
+    font-family: "trebuchet MS"; 
+    font-size: 20pt;
+    text-align: justify; 
+    padding: 10px;
+    margin-top: 10px;
+}
+
+p {
+    font-family: "trebuchet MS"; 
+    font-size: 12pt;
+    text-align: justify;  
+    line-height: 28px;  
+    padding: 10px;
+    margin-top: 10px;
 }
